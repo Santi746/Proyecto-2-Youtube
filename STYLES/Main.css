@@ -146,11 +146,17 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns:60px 80p; /* intente se supone que la barra de temas es una fila se que hago algo mal pero ni idea
+    grid-template-columns:60px 1fr; /* intente se supone que la barra de temas es una fila se que hago algo mal pero ni idea
      dejame subir los cambios al repositorio*/
 }
 
 /*navegacion inferior,temas*/
+
+.main-content{
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    gap: 10px;
+}
 
 
 .themes {
@@ -197,7 +203,6 @@ body {
     font-size: 10px;
     cursor: pointer;
 }
-
 
 
 
